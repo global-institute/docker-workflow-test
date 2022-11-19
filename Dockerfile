@@ -10,7 +10,7 @@ RUN mkdir -p /var/www/html && \
 
 WORKDIR /var/www/html
 
-COPY index.html /var/www/html/
+#COPY index.html /var/www/html/
 
 CMD [ "apachectl" , "-D", "FOREGROUND" ]
 
